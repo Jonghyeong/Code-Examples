@@ -1,0 +1,17 @@
+
+********************
+Open terminal
+
+docker pull mcr.microsoft.com/mssql/server:2019-latest
+
+docker run -d --name ms-sql-server -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=StrongPws123!' -p 1433:1433 mcr.microsoft.com/mssql/server:2019-latest
+
+********************
+Check running in docker
+Login the Azure Data Studio Connection
+
+Server: localhost
+Username: sa
+Password: StrongPws123
+
+*********************
