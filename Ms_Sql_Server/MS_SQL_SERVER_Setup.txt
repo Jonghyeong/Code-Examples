@@ -12,6 +12,6 @@ Login the Azure Data Studio Connection
 
 Server: localhost
 Username: sa
-Password: StrongPws123
+Password: StrongPws123!
 
 *********************
